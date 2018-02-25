@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SearchVidz</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<!-- AIzaSyDWhdo-T6vnRFwwVJit0ViqNB_XUJi_hsE" -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Traži
+				<span>Vidz</span>
+			</h1>
+			<p>YouTube tražilica</p>
+		</header>
+		<section>
+			<form id="trazilica" name="trazilica" onsubmit="return trazi()">
+				<div class="sadrzaj-polja">
+					<input type="search" id="upit" class="polje_unos" placeholder="Pretraži Youtube..">
+					<input type="submit" name="btn_trazi" id="btn_trazi" value="">
+				</div>
+			</form>
+			<ul id="rezultat"></ul>
+			<div id="tipke"></div>
+		</section>
+		<footer>
+			<p>Copyright PROMA &copy; 2018, All Rights Reserved</p>
+		</footer>
+	</div>
+</body>
+
+</html>
